@@ -5,9 +5,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+text-align: center;
+width: 100%;
+font-family: Courier;
+color: rgb(181, 108, 103,0.5);
+margin-top: 20px;
+font-size: 5em;
+}
+.lista{
+  
+  width: 500px;
+
+}
+.tareas{
+  background-color:#fff;
+  width: 100%;
+  min-height:calc(1.5em + 1rem + 2px) ;
+  padding:.5rem 1rem ;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+  color: #495057;
+  line-height: 1.5;
+    border: 1px solid #ced4da;
+    display: flex;
+   
+  }
+  .mensajediv{
+    width: 90%;
+
+  }
+.equis{
+color: rgb(128, 35, 35);
+  width: 10%;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ font-size: 1.8rem;
+ /* background-color: red; */
+
+
+}
+
+p{
+  display: none;
+  max-height: 14px;
+}
+.equis:hover p{
+  display: block !important;
+}
+.pendiente{
+  height:calc(1.5em ) ;
+  box-sizing: border-box;
+  /* word-wrap: break-word;
+    word-break:break-all; */
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+     color: #92a0af;
 }
